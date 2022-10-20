@@ -1,5 +1,5 @@
 extends KinematicBody2D
-class_name Player
+class_name Player2
 
 export(int) var JUMP_FORCE = -230
 export(int) var JUMP_RELEASE_FORCE = -130
@@ -27,13 +27,13 @@ var is_dying = true
 onready var animatedSprite = $AnimatedSprite
 
 func _ready() -> void:
-	animatedSprite.frames = load('res://PlayerNervus.tres')
+	animatedSprite.frames = load('res://PlayerDinja.tres')
 
 func _physics_process(delta: float) -> void:
 
 	apply_gravity()
 	var input = Vector2.ZERO
-	input.x = Input.get_action_strength(('ui_right')) - Input.get_action_strength(('ui_left'))
+	input.x = Input.get_action_strength(('ui_focus_next')) - Input.get_action_strength(('ui_focus_prev'))
 
 	apply_life_drainer()
 	
@@ -52,12 +52,12 @@ func _physics_process(delta: float) -> void:
 			animatedSprite.flip_h = true
 	if is_on_floor():
 		
-		if Input.is_action_just_pressed('ui_up'):
+		if Input.is_action_just_pressed('ui_page_up'):
 			velocity.y = JUMP_FORCE
 	else:
 		is_dying = true
 		animatedSprite.animation = 'Jump'
-		if Input.is_action_just_released('ui_up') and velocity.y < JUMP_RELEASE_FORCE:
+		if Input.is_action_just_released('ui_page_up') and velocity.y < JUMP_RELEASE_FORCE:
 			velocity.y = JUMP_RELEASE_FORCE	
 
 		if velocity.y > 0:
@@ -89,8 +89,7 @@ func apply_friction():
 	
 func apply_acceleration(amount):
 	velocity.x = move_toward(velocity.x, MAX_SPEED * amount, ACCELERATION)
-	
 
 
-func _on_SpikeBall_player1_is_dead() -> void:
+func _on_SpikeBall_player2_is_dead() -> void:
 	life = -10

@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://SpikeBall.gd" type="Script" id=1]
+[ext_resource path="res://spikey.png" type="Texture" id=2]
+[ext_resource path="res://Rotate_ball.gd" type="Script" id=3]
+
+[node name="SpikeBall" type="KinematicBody2D"]
+collision_layer = 0
+collision_mask = 6
+script = ExtResource( 1 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2( 4.08333, 2.47059 )
+scale = Vector2( 0.850694, 0.845588 )
+polygon = PoolVector2Array( 22, -1, 18, 4, 15, 4, 14, 5, 10, 4, 10, 7, 10, 11, 9, 12, 9, 13, 6, 16, 6, 18, 9, 20, 10, 23, 10, 27, 12, 29, 15, 28, 16, 29, 19, 29, 22, 32, 23, 33, 25, 31, 28, 29, 30, 28, 35, 28, 36, 24, 36, 20, 39, 19, 42, 17, 42, 15, 39, 13, 36, 12, 35, 9, 36, 5, 35, 3, 32, 4, 30, 5, 27, 4, 25, 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 24, 16 )
+scale = Vector2( 0.304688, 0.290122 )
+texture = ExtResource( 2 )
+script = ExtResource( 3 )
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D"]
+polygon = PoolVector2Array( 22, -1, 19, 4, 15, 4, 15, 5, 10, 4, 10, 7, 11, 10, 9, 12, 9, 13, 6, 16, 6, 17, 7, 19, 9, 20, 10, 22, 10, 27, 12, 29, 14, 28, 16, 29, 19, 29, 22, 33, 24, 33, 27, 29, 30, 28, 35, 29, 36, 28, 36, 23, 37, 19, 40, 19, 42, 16, 40, 13, 37, 12, 35, 9, 36, 5, 33, 4, 30, 5, 27, 4, 25, 0 )
