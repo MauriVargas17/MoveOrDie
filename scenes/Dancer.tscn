@@ -1,7 +1,7 @@
 [gd_scene load_steps=17 format=2]
 
-[ext_resource path="res://oni_mark.png" type="Texture" id=1]
-[ext_resource path="res://Dancer.gd" type="Script" id=2]
+[ext_resource path="res://assets/oni_mark.png" type="Texture" id=1]
+[ext_resource path="res://scripts/Dancer.gd" type="Script" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 11, 12.25 )

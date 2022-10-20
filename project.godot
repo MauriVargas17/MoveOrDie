@@ -12,12 +12,12 @@ _global_script_classes=[ {
 "base": "KinematicBody2D",
 "class": "Player",
 "language": "GDScript",
-"path": "res://Player.gd"
+"path": "res://scripts/Player.gd"
 }, {
 "base": "KinematicBody2D",
 "class": "Player2",
 "language": "GDScript",
-"path": "res://Player2.gd"
+"path": "res://scripts/Player2.gd"
 } ]
 _global_script_class_icons={
 "Player": "",
@@ -27,7 +27,7 @@ _global_script_class_icons={
 [application]
 
 config/name="MoveOrDie"
-run/main_scene="res://World.tscn"
+run/main_scene="res://scenes/World.tscn"
 config/icon="res://assets/spikey.png"
 
 [display]

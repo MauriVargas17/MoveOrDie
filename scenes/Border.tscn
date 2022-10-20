@@ -1,6 +1,6 @@
 [gd_scene load_steps=38 format=2]
 
-[ext_resource path="res://tiles_packed.png" type="Texture" id=1]
+[ext_resource path="res://assets/tiles_packed.png" type="Texture" id=1]
 
 [sub_resource type="ConvexPolygonShape2D" id=2]
 points = PoolVector2Array( 0, 0, 18, 0, 18, 18, 0, 18 )
@@ -410,4 +410,6 @@ points = PoolVector2Array( 0, 0, 18, 0, 18, 18, 0, 18 )
 tile_set = SubResource( 1 )
 cell_size = Vector2( 18, 18 )
 cell_clip_uv = true
+collision_layer = 4
+collision_mask = 3
 format = 1

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/oni_mark.png-10f32230e570de35d7f314c53eb268fd.stex"
+path="res://.import/oni_mark.png-7fb669768fb05624a9722cb37bc27cb9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://oni_mark.png"
-dest_files=[ "res://.import/oni_mark.png-10f32230e570de35d7f314c53eb268fd.stex" ]
+source_file="res://assets/oni_mark.png"
+dest_files=[ "res://.import/oni_mark.png-7fb669768fb05624a9722cb37bc27cb9.stex" ]
 
 [params]
 
