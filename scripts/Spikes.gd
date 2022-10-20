@@ -18,4 +18,4 @@ func _ready() -> void:
 
 func _on_Spikes_body_entered(body:Node) -> void:
 	if body is Player or body is Player2:
-		get_tree().reload_current_scene()
+		get_tree().change_scene('res://scenes/World.tscn')

@@ -27,8 +27,12 @@ _global_script_class_icons={
 [application]
 
 config/name="MoveOrDie"
-run/main_scene="res://scenes/World.tscn"
+run/main_scene="res://scenes/Title.tscn"
 config/icon="res://assets/spikey.png"
+
+[autoload]
+
+BgSound="*res://scenes/Bg_Sound.tscn"
 
 [display]
 

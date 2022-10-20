@@ -77,7 +77,7 @@ func apply_life_drainer():
 	if is_dying and life > 0:
 		life -= 1
 	elif life <= 0:
-		get_tree().reload_current_scene()	
+		get_tree().change_scene('res://scenes/Again.tscn')	
 	elif life < 300:
 		life += 2
 	emit_signal('life_changed', life)

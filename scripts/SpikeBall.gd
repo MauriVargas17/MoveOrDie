@@ -28,10 +28,10 @@ func _physics_process(delta: float) -> void:
 		
 func _on_Area2D_body_entered(body:Node) -> void:
 			if body is Player:
-				print("Player 1 dead")
+				print("Player 1 was hit")
 				emit_signal('player1_is_dead')
 				
 			elif body is Player2:
-				print('Player 2 dead')
+				print('Player 2 was hit')
 				emit_signal('player2_is_dead')
 		

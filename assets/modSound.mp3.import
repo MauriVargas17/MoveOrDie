@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/modSound.mp3-24ec8dd00780dd17db3ce6fcf6cceafb.mp3str"
+
+[deps]
+
+source_file="res://assets/modSound.mp3"
+dest_files=[ "res://.import/modSound.mp3-24ec8dd00780dd17db3ce6fcf6cceafb.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
