@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Nervus.png-3039ff0a620b7e366284586dfb882e6d.stex"
+path="res://.import/characters_packed.png-ccd7d4b327e346a48fb541f81728ae79.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Nervus.png"
-dest_files=[ "res://.import/Nervus.png-3039ff0a620b7e366284586dfb882e6d.stex" ]
+source_file="res://assets/characters_packed.png"
+dest_files=[ "res://.import/characters_packed.png-ccd7d4b327e346a48fb541f81728ae79.stex" ]
 
 [params]
 

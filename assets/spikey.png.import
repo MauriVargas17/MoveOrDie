@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Dinja.png-b8579ddf8718e04d5b48d3f5f4fd678e.stex"
+path="res://.import/spikey.png-d808026114e7a8594e78e30521543a99.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Dinja.png"
-dest_files=[ "res://.import/Dinja.png-b8579ddf8718e04d5b48d3f5f4fd678e.stex" ]
+source_file="res://assets/spikey.png"
+dest_files=[ "res://.import/spikey.png-d808026114e7a8594e78e30521543a99.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/spikey.png-a9c2486b4c1311806812b845fd54b434.stex"
+path="res://.import/warehouse copy.jpg-d904d54a96e59dca7a185620c799b3ed.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spikey.png"
-dest_files=[ "res://.import/spikey.png-a9c2486b4c1311806812b845fd54b434.stex" ]
+source_file="res://assets/warehouse copy.jpg"
+dest_files=[ "res://.import/warehouse copy.jpg-d904d54a96e59dca7a185620c799b3ed.stex" ]
 
 [params]
 

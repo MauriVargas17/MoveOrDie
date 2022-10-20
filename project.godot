@@ -28,7 +28,7 @@ _global_script_class_icons={
 
 config/name="MoveOrDie"
 run/main_scene="res://World.tscn"
-config/icon="res://icon.png"
+config/icon="res://assets/spikey.png"
 
 [display]
 

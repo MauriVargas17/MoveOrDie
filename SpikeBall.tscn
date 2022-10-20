@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://SpikeBall.gd" type="Script" id=1]
-[ext_resource path="res://spikey.png" type="Texture" id=2]
+[ext_resource path="res://assets/spikey.png" type="Texture" id=2]
 [ext_resource path="res://Rotate_ball.gd" type="Script" id=3]
 
 [node name="SpikeBall" type="KinematicBody2D"]
