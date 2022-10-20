@@ -1,9 +1,21 @@
 extends KinematicBody2D
 
-var velocity = Vector2(70, 70)
+var velocity = Vector2(velocity_calculator(rand_range(-100, 100)), 70)
 
 signal player1_is_dead()
 signal player2_is_dead()
+
+func velocity_calculator(rand_velocity):
+	if rand_velocity < 0:
+		if rand_velocity > -50:
+			return -70
+		else:
+			return rand_velocity
+	else:
+		if rand_velocity < 50:
+			return 70
+		else: 
+			return rand_velocity 
 
 func _physics_process(delta: float) -> void:
 
