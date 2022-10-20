@@ -11,15 +11,6 @@ export(int) var ADDITIONAL_GRAVITY = 4
 
 signal life_changed(life)
 
-
-# export(int) var JUMP_FORCE = -200
-# export(int) var JUMP_RELEASE_FORCE = -60
-# export(int) var MAX_SPEED = 150
-# export(int) var ACCELERATION = 10
-# export(int) var FRICTION = 10
-# export(int) var GRAVITY = 6
-# export(int) var ADDITIONAL_GRAVITY = 4
-
 var velocity = Vector2.ZERO
 export (int) var life = 300
 var is_dying = true
